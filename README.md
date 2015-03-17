@@ -1,5 +1,7 @@
 # A test-driven JS assessment
 
+[![Join the chat at https://gitter.im/rmurphey/js-assessment](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rmurphey/js-assessment?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This repo includes a set of tests that can be used to assess the skills of
 a candidate for a JavaScript position, or to improve one's own skills.
 
@@ -31,6 +33,17 @@ You can also run (most of) the tests on the command line:
     npm test
 
 The command line runner is a work in progress; contributions welcome :)
+
+You can also develop with live-reload and grunt-watch if that's your thing:
+
+    npm install -g grunt-cli
+    npm install
+    grunt develop
+
+## I need help!
+
+There may be friendly folks willing to help you in \#js-assessment or
+\#jshotline on freenode IRC.
 
 ## I want to contribute tests; what do I do?
 
@@ -68,7 +81,7 @@ keep them up to date.
 ## I hate \<some technology you've chosen\>
 
 This repo uses [RequireJS](http://requirejs.org) for dependency management and
-[Mocha](http://visionmedia.github.com/mocha/) and [expect.js](https://github.com/LearnBoost/expect.js/blob/master/README.md)
+[Mocha](http://visionmedia.github.com/mocha/) and [Chai](http://chaijs.com/)
 for the tests themselves. It uses the BDD style for authoring tests. If this
 doesn't suit you, please fork away, or, better, submit a pull request that lets
 this be more flexible than it currently is.
